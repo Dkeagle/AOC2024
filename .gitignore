@@ -6,3 +6,6 @@ pyvenv.cfg
 
 # pycache
 __pycache__
+
+# hide input files directory
+inputs/
