@@ -39,10 +39,10 @@ def b():
     rules, updates = input[:split], input[split+1:]
     rules = [tuple(rule.split("|")) for rule in rules]
     updates = [update.split(",") for update in updates]
-    cpt = 0
+    cpt = 0 #! DEBUG
     for update in updates:
         if not is_ordered(update, rules): 
             total += int(find_middle(find_ordered(update, rules)))
-        cpt += 1
-        print(f"{update} done.\n{cpt}/{len(updates)} => {cpt/len(updates)*100:.2f}%")
+        cpt += 1 #! DEBUG
+        print(f"{update} done.\n{cpt}/{len(updates)} => {cpt/len(updates)*100:.2f}%") #! DEBUG
     return total
