@@ -8,7 +8,7 @@ def main():
     Edit line 11 to display results. 
     """
     print("Result:")
-    print(aoc.day04.b())            # aoc.day[01-25].(a|b)()
+    print(aoc.day05.b())            # aoc.day[01-25].(a|b)()
 
 if __name__ == "__main__":
     main()
