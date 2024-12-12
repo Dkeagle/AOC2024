@@ -1,8 +1,11 @@
 # Venv files
 Include/
-Lib/
 Scripts/
 pyvenv.cfg
+bin/
+lib/
+Lib/
+lib64
 
 # pycache
 __pycache__
